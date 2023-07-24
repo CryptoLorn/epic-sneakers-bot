@@ -1,0 +1,60 @@
+.sneakers_item_wrapper {
+
+}
+
+.sneakers_card {
+    width: 165px;
+    height: 270px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    box-shadow: 0 20px 16px -16px rgba(0,0,0,0.2);
+}
+
+.sneakers_card:hover {
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2), 0 4px 6px rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+.sneakers_card_poster {
+    transition: transform 300ms ease;
+}
+
+.sneakers_card_poster img {
+    width: 165px;
+}
+
+.sneakers_card_poster:hover {
+    transform: scale(1.05);
+}
+
+.sneakers_card_short_info {
+    margin: 10px;
+    font-size: 14px;
+    height: 90px;
+}
+
+.sneakers_card_name {
+    color: var(--tg-theme-text-color);
+    height: 60px;
+}
+
+.sneakers_cars_price_basket {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sneakers_cars_price_basket span {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff0900;
+}
+
+.sneakers_buy {
+    color: gray;
+}
+
+.sneakers_buy:hover {
+    font-weight: bold;
+}

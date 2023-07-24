@@ -1,0 +1,42 @@
+.sneakers_list_wrapper {
+    width: 345px;
+    margin-left: 20px;
+}
+
+.sneakers_list {
+    width: 345px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 15px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.arrow, .arrow_none {
+    width: 20px;
+    height: 20px;
+    background-color: var(--tg-theme-bg-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    border-radius: 50%;
+    border: 1px solid #2751ad;
+}
+
+.arrow:hover {
+    cursor: pointer;
+    border: 1px solid #586994;
+}
+
+.arrow_none {
+    pointer-events: none;
+}
